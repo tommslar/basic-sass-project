@@ -28,5 +28,9 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          git checkout gh-pages
+          git add .
+          git commit -m "GitHub Actions Automated Deployment"
+          git push origin gh-pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
