@@ -1,0 +1,16 @@
+{
+  "name": "sass-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-scss": "sass styles.scss styles.css",
+    "watch": "sass --watch styles.scss:styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.68.0"
+  }
+}
