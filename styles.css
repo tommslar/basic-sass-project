@@ -17,7 +17,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #e34300;
+  background-color: #434fb6;
   color: #ffffff;
   padding: 1rem;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .cta-button {
-  background-color: #434fb6;
+  background-color: #f5723b;
   color: #ffffff;
   padding: 1rem 2rem;
   text-decoration: none;
@@ -67,7 +67,7 @@ body {
 }
 
 .cta-button:hover {
-  background-color: #8891dd;
+  background-color: #e34300;
 }
 
 /* Cards Section */
@@ -79,7 +79,7 @@ body {
 }
 
 .card {
-  background-color: #8891dd;
+  background-color: #f1f1f1;
   border: 1px solid #f1f1f1;
   border-radius: 5px;
   padding: 1rem;
@@ -125,7 +125,7 @@ body {
 
 /* Text Section */
 .text-section {
-  background-color: #8891dd;
+  background-color: #f1f1f1;
   padding: 4rem 0;
   text-align: center;
 }
@@ -170,7 +170,7 @@ body {
 }
 
 .cta-button-secondary:hover {
-  background-color: #8891dd;
+  background-color: #e34300;
   border: none;
 }
 
